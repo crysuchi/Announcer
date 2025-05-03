@@ -1,0 +1,23 @@
+#Announcer by crysuchi
+#repo: https://github.com/crysuchi/Announcer
+
+#This is a simple chat announcer scheduler.
+
+#This plugin uses MiniMessages format, you can read more about this format on https://docs.advntr.dev/minimessage/format.html to personalize your messages.
+
+
+settings:  #you can leave prefix to '' if you don't want any prefix.
+  prefix: "<gray>[Announcer]</gray> "
+
+messages:   #copy this format to create more messages!
+  message1:
+    interval: 40 #in seconds (60 = 1 minute)
+    text: "<green><bold>Welcome to the server!</green>"
+
+  message2:
+    interval: 300
+    text: "<aqua>Don't forget to read the rules at /rules</aqua>"
+
+  message3:
+    interval: 180
+    text: "<blue><bold>Join our Discord:</bold> https://discord.gg/example"
